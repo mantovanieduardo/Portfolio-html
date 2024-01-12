@@ -1,0 +1,282 @@
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+header{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+nav{
+    margin-left: 1100px;
+    margin-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    transition: background-color 0.3s;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color: #8f0808;
+    
+}
+
+h1{
+    margin-top: 320px;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    margin-top: -50px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.divp1{
+    margin-top: 300px;
+    margin-left: 250px;
+}
+
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 620px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -205px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#linha-vertical{
+    width: 1px;
+    height: 215px;  
+    margin-top: -30px;
+    margin-left: 180px;
+    background-color: white;
+}
+
+.img1{
+    margin-left: 1180px;
+    margin-top: -300px;
+}
+
+.container{
+    display: flex;
+}
+
+.margin_html{
+    margin-top: 150px;
+    margin-left: 645px;
+}
+
+.icons{
+    max-width:175px;
+    max-height:125px;
+    width: auto;
+    height: auto;
+}
+
+.p2{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.p3{
+    color: white;
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.margin_css{
+    margin-top: 30px;
+    margin-left: 645px;
+}
+
+.margin_barras_java{
+    margin-left: -60px;
+    margin-top: -10px;
+}
+
+.margin_js{
+    margin-left: 655px;
+    margin-top: 50px;
+}
+
+.margin_barras_css{
+    margin-left: 10px;
+}
+
+.margin_c{
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+.margin_barras_c{
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.img_c{
+    width: 150px;
+    height: 110px;   
+}
+
+.p4{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+#linha-vertical2{
+    width: 1px;
+    height: 680px;
+    margin-top: 70px;
+    margin-left: 960px;
+    background-color: white;
+}
+
+.margin_linguagens{
+    margin-top: -800px;
+    margin-left: -90px;
+}
+
+.tpc{
+    color: white;
+    margin-left: 300px;
+    margin-top: -480px;
+    font-size: 18px;
+}
+
+.p5{
+    color: white;
+}
+
+.p12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -270px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.divp3{
+    margin-top: 280px;
+    margin-left: 110px;
+}
+
+.h1carreira{
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: -370px;
+    margin-left: 800px;
+}
+
+#linha-vertical3{
+    width: 1px;
+    height: 340px;  
+    margin-top: -30px;
+    margin-left: 180px;
+    background-color: white;
+}
+
+.h1jovem{
+    font-size: 20px;
+    margin-top: 300px;
+    margin-left: 800px;
+}
+
+.p6{
+    width: 600px;
+    height: 200px;
+    margin-left: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.p7{
+    width: 600px;
+    height: 200px;
+    margin-top: -190px;
+    margin-left: 1165px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+#linha-vertical4{
+    width: 1px;
+    height: 450px;  
+    margin-top: -30px;
+    margin-left: 1065px;
+    background-color: white;
+}
+
+.div_carreiras{
+    margin-top: -450px;
+}
+
+#linha-horizontal{
+    width: 120px;
+    height: 1px;
+    margin-top: -220px;
+    margin-left: 1250px;
+    background-color: white;
+}
+
+.h1producao{
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 800px;
+    color: white;
+}
+
+.p8{
+    width: 600px;
+    height: 200px;
+    margin-top: -190px;
+    margin-left: 1175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.p9{
+    display: flex;
+    font-size: 15px;
+    margin-top: -5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
