@@ -1,0 +1,380 @@
+/* Arquivo de estilos responsivos */
+/* Media queries para diferentes tamanhos de tela */
+
+/* Estilos para dispositivos móveis pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+    /* Ajustes gerais */
+    h1 {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    
+    h3 {
+        font-size: 10px;
+        margin-top: -30px;
+    }
+    
+    /* Navegação */
+    nav {
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    /* Página Sobre */
+    main.centralizar {
+        padding: 20px;
+    }
+    .divp1 {
+        margin-top: 20px; /* Reduzido */
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .p1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    #linha-vertical {
+        display: none;
+    }
+    
+    .img1 {
+        width: 80%;
+        max-width: 280px; /* Limite para não ficar excessivamente grande */
+        height: auto;
+        display: block;
+        margin: 30px auto; /* Centraliza com margem superior/inferior */
+    }
+    
+    /* Página Habilidades (mantido como antes) */
+    .margin_linguagens {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    
+    #linha-vertical2 {
+        display: none;
+    }
+    
+    .margin_html, .margin_css, .margin_js, .margin_c {
+        margin-left: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icons, .img_c {
+        max-width: 100px;
+        max-height: 80px;
+    }
+    
+    .tpc {
+        margin-left: 0;
+        margin-top: 30px;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    /* Página Experiência (mantido como antes) */
+    .divp3 {
+        margin-top: 100px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    
+    .p12 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    #linha-vertical3, #linha-vertical4, #linha-horizontal {
+        display: none;
+    }
+    
+    .h1carreira {
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .div_carreiras {
+        margin-top: 30px;
+    }
+    
+    .h1jovem, .h1producao {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .p6, .p7, .p8 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    /* Página Contatos (mantido como antes) */
+    .centro_social {
+        padding: 0 20px;
+    }
+}
+
+/* Estilos para tablets e dispositivos médios (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Ajustes gerais */
+    h1 {
+        font-size: 50px;
+        margin-top: 200px;
+    }
+    
+    /* Navegação */
+    nav {
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    /* Página Sobre */
+    main.centralizar {
+        padding: 30px;
+    }
+    .divp1 {
+        margin-top: 30px; /* Reduzido */
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .p1 {
+        width: 100%; /* Ocupa toda a largura disponível no seu contêiner */
+        max-width: 500px; /* Limita a largura máxima do texto */
+        margin-left: auto; /* Centraliza o bloco de texto */
+        margin-right: auto; /* Centraliza o bloco de texto */
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    #linha-vertical {
+        display: none; /* Mantido oculto, pode ser reavaliado */
+    }
+    
+    .img1 {
+        width: 60%;
+        max-width: 320px; /* Limite ajustado */
+        height: auto;
+        display: block;
+        margin: 30px auto;
+    }
+    
+    /* Outras seções mantidas como antes */
+}
+
+/* Estilos para tablets grandes e desktops pequenos (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Navegação */
+    nav {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    /* Página Sobre */
+    main.centralizar {
+        display: flex;
+        flex-direction: column; /* Empilha texto e imagem */
+        align-items: center; /* Centraliza os itens empilhados */
+        padding: 40px;
+    }
+    .divp1 {
+        margin-top: 0; /* Reset */
+        margin-left: 0; /* Reset */
+        max-width: 600px; /* Largura máxima para o texto */
+        order: 1; /* Texto primeiro */
+    }
+    
+    .p1 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 18px; /* Ajuste de tamanho de fonte */
+        text-align: left; /* Alinha o texto à esquerda para melhor leitura */
+        padding: 0 15px; /* Pequeno padding lateral */
+    }
+    
+    #linha-vertical {
+        display: none;
+    }
+
+    .img1 {
+        width: 100%; /* Imagem ocupa a largura do seu contêiner flex */
+        max-width: 300px; /* Tamanho máximo da imagem */
+        height: auto;
+        display: block;
+        margin: 40px 0; /* Margem acima/abaixo, sem auto para laterais pois o flex container centraliza */
+        order: 2; /* Imagem depois do texto */
+    }
+    
+    /* Outras seções mantidas como antes */
+}
+
+/* Estilos para desktops médios (1025px - 1366px) */
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+    /* Navegação */
+    nav {
+        margin-left: auto; /* Tenta centralizar ou alinhar à direita */
+        margin-right: auto;
+        max-width: 1000px; /* Limita a largura da navegação */
+        text-align: center; /* Centraliza os itens da navegação */
+    }
+    
+    /* Página Sobre */
+    main.centralizar {
+        display: flex;
+        flex-direction: row; /* Lado a lado */
+        align-items: center; /* Alinha verticalmente ao centro */
+        justify-content: space-around; /* Espaça os elementos */
+        padding: 50px;
+        max-width: 1100px; /* Largura máxima do conteúdo */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divp1 {
+        flex: 1 1 55%; /* Permite crescer/encolher, base de 55% */
+        max-width: 600px;
+        margin: 0 20px 0 0; /* Margem à direita para separar da imagem */
+        margin-top: 0; /* Reset */
+        margin-left: 0; /* Reset */
+    }
+    .p1 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: left;
+        font-size: 19px;
+    }
+    #linha-vertical {
+        display: block; /* Reintroduz a linha vertical */
+        height: auto;
+        align-self: stretch;
+        margin: 0 20px 0 0; /* Margem para separar do texto */
+        background-color: white;
+    }
+    .img1 {
+        flex: 0 0 350px; /* Não cresce, não encolhe, base de 350px */
+        max-width: 350px;
+        height: auto;
+        margin: 0;
+    }
+    
+    /* Outras seções mantidas como antes, mas o nav foi ajustado */
+    #linha-vertical2 {
+        margin-left: 800px;
+    }
+    .h1carreira {
+        margin-left: 700px;
+    }
+    #linha-vertical4 {
+        margin-left: 900px;
+    }
+    .p6, .p7, .p8 {
+        margin-left: 950px;
+    }
+}
+
+/* Estilos para desktops grandes (acima de 1366px) */
+@media screen and (min-width: 1367px) {
+    /* Navegação */
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        text-align: center;
+    }
+
+    /* Página Sobre */
+    main.centralizar {
+        display: flex;
+        align-items: center; 
+        justify-content: space-around; 
+        padding: 60px;
+        max-width: 1200px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divp1 { 
+        flex-basis: 50%; 
+        max-width: 620px; /* Mantém a largura original do texto */
+        margin: 0 30px 0 0; 
+        margin-top: 0; 
+        margin-left: 0; 
+    }
+    .p1 {
+        margin-left: 0; 
+        margin-top: 0; 
+        width: 100%; 
+        text-align: left; 
+        font-size: 20px;
+    }
+    #linha-vertical { 
+        display: block; 
+        height: auto; 
+        align-self: stretch; 
+        margin-right: 30px; 
+        margin-left: 0;
+        margin-top: 0;
+        background-color: white;
+    }
+    .img1 { 
+        flex-basis: 40%; 
+        max-width: 380px; /* Tamanho ideal para a imagem */
+        height: auto;
+        margin: 0 0 0 30px; 
+    }
+
+    /* Ajustes para outras seções em telas grandes, se necessário */
+    /* Exemplo: centralizar conteúdo das outras páginas também */
+    .margin_linguagens, .divp3 /* Para habilidades e experiência */
+    { 
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
