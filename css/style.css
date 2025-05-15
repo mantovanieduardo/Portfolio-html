@@ -261,7 +261,7 @@ footer {
     background-color: #1f2428;
     color: #a0a0a0;
     text-align: center;
-    padding: 30px 0;
+    padding: 50px 0;
     margin-top: auto; /* Garante que o rodapé fique no final se o conteúdo for curto */
 }
 
